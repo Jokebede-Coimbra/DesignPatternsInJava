@@ -18,7 +18,7 @@ public class Main {
 //            Motorcycle motorcycle = new Motorcycle("Vermelho", "2024", 250);
 //
 //        }
-    
+
         typeVehicle = TypeVehicle.CAR;
 
         Car car = new Car("Preto", "2024", 2.6, 4);
