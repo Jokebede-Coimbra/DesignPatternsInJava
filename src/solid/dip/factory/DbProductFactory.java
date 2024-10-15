@@ -2,6 +2,7 @@ package solid.dip.factory;
 
 import solid.dip.exemplo2.model.Db;
 import solid.dip.exemplo2.model.IDbProduct;
+import solid.dip.exemplo2.model.MongoDBProduct;
 import solid.dip.exemplo2.model.MySQLProduct;
 
 public class DbProductFactory {
@@ -10,7 +11,7 @@ public class DbProductFactory {
         if (type == Db.MYSQL) {
             return new MySQLProduct();
         } else {
-            return new MySQLProduct();
+            return new MongoDBProduct();
         }
     }
 
