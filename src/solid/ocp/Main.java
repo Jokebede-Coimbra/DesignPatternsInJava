@@ -1,11 +1,9 @@
 package solid.ocp;
 
-import solid.ocp.enums.TypeVehicle;
-import solid.ocp.vehicles2.Car;
-import solid.ocp.vehicles2.Motorcycle;
+import solid.isp.exemplo1.vehicles.Car;
 
 public class Main {
-    private static TypeVehicle typeVehicle;
+    private static String type;
 
     public static void main(String[] args) {
 
@@ -19,7 +17,7 @@ public class Main {
 //
 //        }
 
-        typeVehicle = TypeVehicle.CAR;
+        type = "CAR";
 
         Car car = new Car("Preto", "2024", 2.6, 4);
 
