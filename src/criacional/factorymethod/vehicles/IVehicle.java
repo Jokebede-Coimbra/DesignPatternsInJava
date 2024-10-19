@@ -1,4 +1,4 @@
-package criacional.vehicles;
+package criacional.factorymethod.vehicles;
 
 public interface IVehicle {
 

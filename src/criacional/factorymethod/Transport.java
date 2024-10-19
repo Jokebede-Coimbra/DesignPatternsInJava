@@ -1,6 +1,6 @@
-package criacional;
+package criacional.factorymethod;
 
-import criacional.vehicles.IVehicle;
+import criacional.factorymethod.vehicles.IVehicle;
 
 public abstract class Transport {
 

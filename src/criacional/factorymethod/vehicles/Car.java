@@ -1,4 +1,4 @@
-package criacional.vehicles;
+package criacional.factorymethod.vehicles;
 
 public class Car implements IVehicle {
     @Override

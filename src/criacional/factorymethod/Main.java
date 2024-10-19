@@ -1,4 +1,4 @@
-package criacional;
+package criacional.factorymethod;
 
 public class Main {
     private static Transport transport;
