@@ -2,10 +2,11 @@ package criacional.abstractfactory.factories;
 
 import criacional.abstractfactory.aircrafts.Airplane;
 import criacional.abstractfactory.aircrafts.IAircraft;
+import criacional.abstractfactory.boats.IBoatVehicle;
 import criacional.abstractfactory.landvehicles.Car;
 import criacional.abstractfactory.landvehicles.ILandVehicle;
 
-public class UberTransport implements ITransportFactory{
+public class UberTransport implements ITransportFactory {
     @Override
     public ILandVehicle createTransportVehicle() {
         return new Car();
@@ -15,4 +16,10 @@ public class UberTransport implements ITransportFactory{
     public IAircraft createTransportAircraft() {
         return new Airplane();
     }
+
+    @Override
+    public IBoatVehicle createTransportBoat() {
+        return null;
+    }
+
 }
