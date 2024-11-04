@@ -19,7 +19,7 @@ Este repositório contém exemplos dos principais padrões de projeto (**Design 
 
 ## 1. Entendendo os Princípios SOLID
 
-Os princípios SOLID ajudam a criar sistemas mais organizados, escaláveis e fáceis de manter. Abaixo estão os cinco princípios:
+Os princípios SOLID ajudam a criar sistemas mais organizados, escaláveis e fáceis de manter.
 
 - **S** - **Princípio da Responsabilidade Única (Single Responsibility Principle)**  
   Cada classe deve ter apenas uma razão para mudar.
