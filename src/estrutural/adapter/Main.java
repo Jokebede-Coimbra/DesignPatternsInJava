@@ -1,6 +1,8 @@
 package estrutural.adapter;
 
+import estrutural.adapter.adapters.MercadoPagoAdapter;
 import estrutural.adapter.adapters.PayoneerAdapter;
+import estrutural.adapter.mercadopago.PayPago;
 import estrutural.adapter.payoneer.Payoneer;
 import estrutural.adapter.paypal.IPayPalPayments;
 import estrutural.adapter.paypal.PayPal;
@@ -16,5 +18,11 @@ public class Main {
         IPayPalPayments payments = new PayoneerAdapter(new Payoneer());
         payments.paypalPayment();
         payments.paypalReceive();
+
+        // IPayPalPayments pagoPayments  = new PayPago();
+
+        IPayPalPayments pagoPayments = new MercadoPagoAdapter(new PayPago());
+        pagoPayments.paypalPayment();
+        pagoPayments.paypalReceive();
     }
 }
