@@ -4,7 +4,7 @@ public class TwitchTV implements IPlatform {
 
     public TwitchTV() {
         configureRMTP();
-        System.out.println("TwitchTV: Transmissão Iniciada.. ");
+        System.out.println("Configuração de plataforma iniciada: TwitchTV");
     }
 
     @Override

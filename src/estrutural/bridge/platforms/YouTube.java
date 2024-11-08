@@ -4,7 +4,7 @@ public class YouTube implements IPlatform {
 
     public YouTube() {
         configureRMTP();
-        System.out.println("YouTube: Transmissão Iniciada.. ");
+        System.out.println("Configuração de plataforma iniciada: YouTube");
     }
 
     @Override

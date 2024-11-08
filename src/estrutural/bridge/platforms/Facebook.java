@@ -4,7 +4,7 @@ public class Facebook implements IPlatform {
 
     public Facebook() {
         configureRMTP();
-        System.out.println("Facebook: Transmissão Iniciada.. ");
+        System.out.println("Configuração de plataforma iniciada: Facebook ");
     }
 
     @Override
