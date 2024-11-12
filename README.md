@@ -1,4 +1,4 @@
-# Design Patterns em Java  -🚧 *Em Construção*
+# Design Patterns em Java
 
 Este repositório contém exemplos dos principais padrões de projeto (**Design Patterns**) em Java. O objetivo é consolidar o aprendizado e servir como uma referência prática para os conceitos estudados.
 
